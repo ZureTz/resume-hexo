@@ -2,12 +2,12 @@
 # Language (Optional)
 lang: en
 # Site Keywords & Description
-keywords: Resume,Hexo,Resume Theme
+keywords: Resume, Hexo,Resume Theme
 description: This is a cool resume theme for hexo.
 # Resume Title
-resume_title: Jon Snow's Resume
+resume_title: Jinsong Huang's Resume
 # Job Applicant Name
-name: Jon Snow
+name: Jinsong Huang
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # Contact
 contact:

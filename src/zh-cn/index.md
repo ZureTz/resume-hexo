@@ -2,31 +2,31 @@
 # 语言 （可选）
 lang: zh-cn
 # 网页关键词和描述
-keywords: 简历主题,Hexo主题,简历模板
-description: 这是一个在线简历模板（Hexo博客主题）。
+keywords: 简历主题, Hexo主题, 简历模板
+description: 这是一个在线简历
 # 简历标题
-resume_title: Jon Snow's Resume
+resume_title: 黄劲松的简历
 # 应聘者姓名
-name: Jon Snow
+name: 黄劲松
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # 联系方式
 contact:
   - icon: fas fa-globe-asia
-    text: https://resume.js.org
-    url: https://resume.js.org/zh-cn/
+    text: https://resume.trozure.uk
+    url: https://resume.trozure.uk/zh-cn/
   # 邮箱
   - icon: fas fa-envelope
-    text: your email
-    url:
+    text: pineehuang@icloud.com
+    url: mailto:pineehuang@icloud.com
   # 电话号码
   - icon: fas fa-phone-alt
-    text: 1xxxxxxxxxx
-    url: tel:10086
+    text: +86 18163384338
+    url: tel:+86-18163384338
 # PDF下载链接
 download:
   title: 下载本站源码
   icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/resume-docs
+  url: https://github.com/ZureTz/resume-hexo
 ---
 
 {% raw %}
@@ -35,154 +35,66 @@ download:
 </center>
 {% endraw %}
 
+## <i class="fas fa-clipboard-check"></i> 自我评价
 
-
-## <i class="fas fa-flag"></i> 开始使用
-
-由于本主题与普通 Hexo 主题有较大区别，建议请直接下载本站的源码，参考源码进行改写。
-
-- 本站源码：https://github.com/xaoxuu/resume-docs
-- 主题源码：https://github.com/xaoxuu/hexo-theme-resume
-
-也可以创建全新的博客，通过 `npm` 命令安装：
-
-```bash
-npm i hexo-theme-resume
-```
-
-然后删除多余的依赖包（重要），打开 `package.json` 复制并全部替换为以下内容：
-
-```json
-{
-  "name": "hexo-site",
-  "private": true,
-  "hexo": {
-    "version": "6.3.0"
-  },
-  "engines": {
-    "node": ">=16.x"
-  },
-  "scripts": {
-    "start": "hexo server",
-    "build": "node pre-deploy.js && hexo clean && hexo generate",
-    "deploy": "npm run build && hexo deploy"
-  },
-  "dependencies": {
-    "hexo": "^6.3.0",
-    "hexo-autonofollow": "^1.0.1",
-    "hexo-deployer-git": "^4.0.0",
-    "hexo-lazyload-image": "^1.0.13",
-    "hexo-offline": "^2.0.0",
-    "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.1.1",
-    "hexo-renderer-stylus": "^2.1.0",
-    "hexo-server": "^3.0.0",
-    "hexo-all-minifier": "^0.5.7",
-    "hexo-fs": "^4.1.0"
-  }
-}
-```
-
-然后输入 `npm i` 安装依赖包。
+**计算机科学与技术专业学生，擅长C/C++、JavaScript等编程语言，对图形API和Web开发有浓厚兴趣。具备扎实的计算机基础知识和实践能力，能快速学习新技术并应用到实际项目中。有良好的团队协作精神和解决问题的能力，期待在技术领域不断挑战和成长。**
 
 ## <i class="fas fa-user-graduate"></i> 教育背景
 
-**XX大学 X学院 X系 X专业 X年毕业**
-
+**中国石油大学(北京)(211) 本科 人工智能学院 计算机科学与技术专业 预计2026年6月毕业**
+- **GPA: 4.0/5.0, Top 10%**
+- **IELTS: 7.5(6.5) (2024年9月)** 
 
 ## <i class="fas fa-user-tie"></i> 工作经验
 
 
-#### 2000年 ~ 至今：XX公司
+#### 2025年3月 ~ 2025年6月：教学助理(TA) @ 中国石油大学(北京)
 
-- 主要负责XXX
-- 也负责XXX
+- 负责维护学院Online Judge系统(acm.cup.edu.cn)，完成平台升级和性能优化，提高系统稳定性
+- 协助教授迁移和整理编程题库，设计并修改符合课程要求的考试试卷和评分标准
+- 为本科生提供编程指导，解答技术难题，审核代码质量并提供改进建议
+- 组织编程实践课程，指导学生掌握开发环境配置和编程规范，提升学生的实践能力
+  
+#### 2025年3月 ~ 至今：研究助理(RA) @ 中国石油大学(北京)
 
+- 参与基于Vulkan图形API的高性能矩阵计算项目，负责调用RT Core进行Headless Computing实现
+- 研究GPU加速计算在科学计算领域的应用，探索图形API在通用计算中的优化方案
+- 负责项目初期技术调研和框架搭建，编写核心算法逻辑和性能测试模块
+- 协作团队成员进行代码评审和技术讨论，推进项目按计划进行
 
-#### 1900年 ~ 2000年：XX公司
+## <i class="fas fa-award"></i> 项目经历
 
-- 主要负责XXX
-- 也负责XXX
+### accumulate-webserver - 高性能Web服务器
 
-#### 1800年 ~ 1900年：XX公司
+#### 2024/05 ~ 2024/06
 
-- 主要负责XXX
-- 也负责XXX
+基于C语言实现的高性能HTTP服务器，从底层架构到协议实现全栈开发
 
+- 设计并实现了自定义内存分配器(malloc)，参考nginx内存管理模型，有效减少内存碎片
+- 整合glib、pthread和fuse等核心库，构建轻量级in-memory文件系统，提升服务器性能
+- 主导服务器架构升级：从单进程设计优化至多线程线程池模式，提高并发处理能力
+- 实现了HTTP/1.1协议的主要功能，包括请求解析、响应生成和会话管理
+- 项目地址：[accumulate-webserver](https://github.com/ZureTz/os-web-server)
+****
+### source-gamer - 游戏资源管理系统
 
-## <i class="fas fa-award"></i> 精选项目
+#### 2024/05 ~ 2024/06
 
+基于爬取数据的游戏资源整合与查询平台，实现数据的系统化管理与筛选
 
-{% raw %}
-<btns rounded>
-<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/heartmate/icon.png'>
-  心率管家
-</a>
-<a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
-  C养老
-</a>
-<a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
-  C-Life养老
-</a>
-<a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
-  LinkSmart
-</a>
-<a href='https://apps.apple.com/cn/app/hitfit/id1207738581'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-hitfit/icon.png'>
-  HitFit
-</a>
-<a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
-  飞亚达腕能助手
-</a>
-</btns><br>
-{% endraw %}
+- 负责前端架构与界面设计，采用HTML5+CSS3+JavaScript技术栈，实现响应式用户界面
+- 集成materialize.css框架实现现代化UI组件，通过Webpack进行模块化管理与打包优化
+- 设计并实现了完整的用户认证和数据查询系统，包括登录验证和多条件筛选功能
+- 与后端开发团队深度协作，优化API调用逻辑，提升应用性能和用户体验
+- 项目地址：[source-gamer](https://github.com/ZureTz/source-gamer-frontend.git)
+
+## 开源贡献
+
+- **Vulkan-Sample 项目**：提交并成功合并API使用文档的改进，优化技术说明和示例代码，提高项目文档质量
+- **MaibotQQ机器人的 Gradio WebGUI优化**：贡献配置文件动态修改功能的实现代码，方案被其他开发者采纳并合并至主分支
 
 
-### A项目
-
-#### 2000/01 ~ 2019/01：于XX公司开发，团队项目，维护至今
-
-啦啦啦
-
-### B项目
-
-#### 1900/01 ~ 2000/01：于XX公司开发
-
-啦啦啦
-
-### C项目
-
-#### 1800/01 ~ 1900/01：于XX公司开发
-
-啦啦啦
-
-## <i class="fab fa-github"></i> 开源贡献
-
-
-### Volantis
-
-#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
-
-- 完全自由的模块化、易于定制化设计
-- 移动端优化
-- 源码：https://github.com/xaoxuu/hexo-theme-volantis
-- 官网：https://volantis.js.org/
-
-### ProHUD
-
-#### 2019/08 ~ 至今，易于定制、接口简单的HUD库
-
-- 使用Swift5编写。
-- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-- 源码：https://github.com/xaoxuu/ProHUD
-
-<fancybox>
+<!-- <fancybox>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot02.png'>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot03.png'>
@@ -193,39 +105,14 @@ npm i hexo-theme-resume
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot08.png'>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot09.png'>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
-</fancybox>
+</fancybox> -->
 
 ## <i class="fas fa-phone-alt"></i> 与我联系
 
-目前状态为：在职，考虑换工作，100年内可到岗。
+目前状态为：在校, 考虑找实习, 预计可实习三个月以上, 随时可到岗.
 
-<i class="fas fa-envelope fa-fw"></i> your email
-<i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
-
-
-## 主题配置
-
-```yaml
-cdn:
-  # These base libraries cannot be deleted
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  vue: https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js
-  # When these CDN resources are deleted, local resources are loaded.
-  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
-  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
-  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
-  css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
-  # Optional plug-in: image zoom
-  fancybox:
-    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
-
-# robots meta tag
-robots: noindex,nofollow
-
-# the footer of your site
-copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
-```
+<i class="fas fa-envelope fa-fw"></i> [pineehuang@icloud.com](mailto:pineehuang@icloud.com)
+<i class="fas fa-phone-alt fa-fw"></i> [+86 18163384338](tel:+86-18163384338)
 
 ## 评论
 
