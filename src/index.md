@@ -2,8 +2,8 @@
 # Language (Optional)
 lang: en
 # Site Keywords & Description
-keywords: Resume, Hexo,Resume Theme
-description: This is a cool resume theme for hexo.
+keywords: Resume, Software Engineer, Computer Science
+description: Professional resume of Jinsong Huang
 # Resume Title
 resume_title: Jinsong Huang's Resume
 # Job Applicant Name
@@ -11,23 +11,22 @@ name: Jinsong Huang
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # Contact
 contact:
-  # URL
-  - icon: fas fa-globe-europe
-    text: https://resume.js.org
-    url: https://resume.js.org
+  - icon: fas fa-globe-asia
+    text: https://resume.trozure.uk
+    url: https://resume.trozure.uk
   # Email
   - icon: fas fa-envelope
-    text: your email
-    url:
+    text: pineehuang@icloud.com
+    url: mailto:pineehuang@icloud.com
   # Phone Number
   - icon: fas fa-phone-alt
-    text: 1xxxxxxxxxx
-    url: tel:10086
+    text: +86 18163384338
+    url: tel:+86-18163384338
 # PDF Download Link
 download:
-  title: Download
+  title: Download Source Code
   icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/resume-docs
+  url: https://github.com/ZureTz/resume-hexo
 ---
 
 {% raw %}
@@ -36,162 +35,85 @@ download:
 </center>
 {% endraw %}
 
+## <i class="fas fa-clipboard-check"></i> Professional Summary
 
-## <i class="fas fa-flag"></i> Getting Started
-
-Please directly download the source code of this site and refer to the source code for rewriting.
-
-- Site Source code: https://github.com/xaoxuu/resume-docs
-- Theme source code: https://github.com/xaoxuu/hexo-theme-resume
-
+Computer Science student with strong programming skills in C/C++, Python, and JavaScript. Experienced in Linux environment and version control systems. Demonstrated ability to quickly adapt to new technologies and environments. Seeking internship opportunities to apply technical skills and contribute to innovative projects.
 
 ## <i class="fas fa-user-graduate"></i> Education
 
-**XX University X College X Course X Major X Graduation**
+**China University of Petroleum (Beijing) (211)** 
+- **B.S. in Computer Science and Technology, School of Artificial Intelligence**
+- **Expected Graduation: June 2026**
+- **GPA: 4.0/5.0 (Top 5%)**
+- **IELTS: 7.5 (6.5) (September 2024)**
 
+## <i class="fas fa-user-tie"></i> Experience
 
-## <i class="fas fa-user-tie"></i> Work Experience
+#### Teaching Assistant @ China University of Petroleum (Beijing)
+**March 2025 - June 2025**
 
+- Maintained and optimized the department's Online Judge system (acm.cup.edu.cn), improving system stability and performance
+- Collaborated with professors to migrate programming problem sets and develop appropriate assessment materials
+- Provided technical guidance to undergraduate students, reviewed code quality, and offered improvement suggestions
+- Conducted programming practical sessions, teaching development environment setup and coding standards
 
-#### 2000 ~ Present: Company XX
+#### Research Assistant @ China University of Petroleum (Beijing)
+**March 2025 - Present**
 
-- Mainly responsible for XXX
+- Contributing to high-performance matrix computation project using Vulkan graphics API
+- Conducting technical research in early project phases
+- Implementing headless computing solutions utilizing RT Core capabilities
+- Researching GPU acceleration techniques for scientific computing applications
+- Collaborating with team members through code reviews and technical discussions
 
-#### 1900 ~ 2000: Company XX
+## <i class="fas fa-award"></i> Projects
 
-- Mainly responsible for XXX
+### accumulate-webserver - High-Performance Web Server
+**May 2024 - June 2024**
 
-#### 1800 ~ 1900: company XX
+Developed a high-performance HTTP server in C, handling everything from low-level architecture to protocol implementation.
 
-- Mainly responsible for XXX
+- Led server architecture upgrade from single-process to multi-threaded thread pool design, improving concurrent processing capabilities
+- Integrated core libraries including glib, pthread, and fuse to build a lightweight in-memory file system, enhancing server performance
+- Implemented a custom memory allocator based on nginx memory management model, reducing memory fragmentation
+- GitHub: [accumulate-webserver](https://github.com/ZureTz/os-web-server)
 
+### source-gamer - Game Resource Management System
+**May 2024 - June 2024**
 
+Created a platform for game resource integration and querying based on crawled data with systematic management and filtering capabilities.
 
-## <i class="fas fa-award"></i> Featured Projects
+- Designed and developed the frontend architecture using HTML5, CSS3, and JavaScript, creating a responsive user interface
+- Integrated materialize.css framework for modern UI components with Webpack for modular management and build optimization
+- Using comprehensive user authentication and data query systems, including login verification and multi-condition filtering
+- Collaborated closely with a backend developer to optimize API calls, enhancing application performance and user experience
+- GitHub: [source-gamer](https://github.com/ZureTz/source-gamer-frontend.git)
 
+## <i class="fas fa-code"></i> Open Source Contributions
 
-{% raw %}
-<btns rounded>
-<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/heartmate/icon.png'>
-  心率管家
-</a>
-<a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
-  C养老
-</a>
-<a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
-  C-Life养老
-</a>
-<a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
-  LinkSmart
-</a>
-<a href='https://apps.apple.com/cn/app/hitfit/id1207738581'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-hitfit/icon.png'>
-  HitFit
-</a>
-<a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
-  飞亚达腕能助手
-</a>
-</btns><br>
-{% endraw %}
+- **Vulkan-Sample Project**: Successfully merged documentation improvements, optimizing technical explanations and example code
+- **MaibotQQ Robot Gradio WebGUI**: Contributed implementation code for dynamic configuration file modification, which was adopted and merged into the main branch
 
+## <i class="fas fa-laptop-code"></i> Technical Skills
 
-### Project A
+- **Languages**: C/C++, Python, JavaScript
+- **Tools & Technologies**: Git, VS Code, Vite, Node.js, React, Webpack
+- **Development**: Algorithm design, Web development, System programming
+- **Soft Skills**: Problem-solving, Team collaboration, Self-learning
 
-#### 2000/01 ~ 2019/01: Developed by XX company, team project, maintenance so far
+## <i class="fas fa-phone-alt"></i> Contact Me
 
-啦啦啦
+Currently: Student, available for internships lasting 3+ months, can start within one week.
 
-### Project B
-
-#### 1900/01 ~ 2000/01: Developed by XX company
-
-啦啦啦
-
-### Project C
-
-#### 1800/01 ~ 1900/01: Developed by XX company
-
-啦啦啦
-
-## <i class="fab fa-github"></i> Open Source Contributions
-
-
-### Volantis
-
-#### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
-
-- 完全自由的模块化、易于定制化设计
-- 移动端优化
-- 源码：https://github.com/xaoxuu/hexo-theme-volantis
-- 官网：https://volantis.js.org/
-
-### ProHUD
-
-#### 2019/08 ~ present, HUD library with easy customization and simple interface
-
-- 使用Swift5编写。
-- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-- 源码：https://github.com/xaoxuu/ProHUD
-
-<fancybox>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot02.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot03.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot04.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot05.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot06.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot07.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot08.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot09.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
-</fancybox>
-
-
-## <i class="fas fa-phone-alt"></i> Contact
-
-目前状态为：在职，考虑换工作，100年内可到岗。
-
-<i class="fas fa-envelope fa-fw"></i> your email
-<i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
-
-
-
-## Theme Config
-
-```yaml
-cdn:
-  # These base libraries cannot be deleted
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  vue: https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js
-  # When these CDN resources are deleted, local resources are loaded.
-  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
-  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
-  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
-  css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
-  # Optional plug-in: image zoom
-  fancybox:
-    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
-
-# robots meta tag
-robots: noindex,nofollow
-
-# the footer of your site
-copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
-```
+<i class="fas fa-envelope fa-fw"></i> [pineehuang@icloud.com](mailto:pineehuang@icloud.com)
+<i class="fas fa-phone-alt fa-fw"></i> [+86 18163384338](tel:+86-18163384338)
 
 ## Comments
 
 {% raw %}
 <script src="https://utteranc.es/client.js"
-        repo="xaoxuu/hexo-theme-resume"
-        issue-number="17"
+        repo="ZureTz/resume-hexo"
+        issue-number="18"
         theme="github-light"
         crossorigin="anonymous"
         async>
