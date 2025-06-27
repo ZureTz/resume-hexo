@@ -37,7 +37,10 @@ download:
 
 ## <i class="fas fa-clipboard-check"></i> Professional Summary
 
-Computer Science student with strong programming skills in C/C++, Python, and JavaScript. Experienced in Linux environment and version control systems. Demonstrated ability to quickly adapt to new technologies and environments. Seeking internship opportunities to apply technical skills and contribute to innovative projects.
+- **Technical Proficiency**: Proficient in C/C++, Python, JavaScript and other mainstream programming languages, familiar with Go/Java, capable of solving complex technical problems with solid foundation in data structures, algorithms, operating systems, and networking principles
+- **System Development**: Experienced in Linux development environment, proficient with Git and other version control tools
+- **Learning Efficiency**: Strong self-learning ability, quick adaptation to new technology stacks and development environments, continuous learning mindset, fluent in reading English technical documentation with independent problem-solving capabilities
+- **Team Collaboration**: Clear communication and expression, strong teamwork awareness, excellent project coordination skills and responsibility, experienced in open source contributions with recognized Issues and PRs by maintainers
 
 ## <i class="fas fa-user-graduate"></i> Education
 
@@ -45,61 +48,59 @@ Computer Science student with strong programming skills in C/C++, Python, and Ja
 - **B.S. in Computer Science and Technology, School of Artificial Intelligence**
 - **Expected Graduation: June 2026**
 - **GPA: 4.0/5.0 (Top 5%)**
-- **IELTS: 7.5 (6.5) (September 2024)**
+- **IELTS: 7.5**
 
 ## <i class="fas fa-user-tie"></i> Experience
 
 #### Teaching Assistant @ China University of Petroleum (Beijing)
 **March 2025 - June 2025**
 
-- Maintained and optimized the department's Online Judge system (acm.cup.edu.cn), improving system stability and performance
-- Collaborated with professors to migrate programming problem sets and develop appropriate assessment materials
-- Provided technical guidance to undergraduate students, reviewed code quality, and offered improvement suggestions
-- Conducted programming practical sessions, teaching development environment setup and coding standards
-
-#### Research Assistant @ China University of Petroleum (Beijing)
-**March 2025 - Present**
-
-- Contributing to high-performance matrix computation project using Vulkan graphics API
-- Conducting technical research in early project phases
-- Implementing headless computing solutions utilizing RT Core capabilities
-- Researching GPU acceleration techniques for scientific computing applications
-- Collaborating with team members through code reviews and technical discussions
+- Partially responsible for maintaining and optimizing the department's Online Judge system (acm.cup.edu.cn)
+- Assisted professors in organizing and migrating 100+ programming problem sets, designed scoring criteria and automated test cases, improving evaluation accuracy
+- Provided one-on-one tutoring to 20+ undergraduate students, resolved technical challenges, conducted code reviews, enhancing students' programming capabilities
+- Led programming practical sessions for 50+ students, training them in standard development workflows and toolchains, achieving high teaching satisfaction ratings
 
 ## <i class="fas fa-award"></i> Projects
 
-### accumulate-webserver - High-Performance Web Server
-**May 2024 - June 2024**
+### os-webserver - High-Performance Web Server
+**May 2024 - June 2024** Architecture Design and Implementation
 
-Developed a high-performance HTTP server in C, handling everything from low-level architecture to protocol implementation.
+Self-designed and implemented high-performance HTTP server, building complete web server architecture from scratch.
 
-- Led server architecture upgrade from single-process to multi-threaded thread pool design, improving concurrent processing capabilities
-- Integrated core libraries including glib, pthread, and fuse to build a lightweight in-memory file system, enhancing server performance
-- Implemented a custom memory allocator based on nginx memory management model, reducing memory fragmentation
-- GitHub: [accumulate-webserver](https://github.com/ZureTz/os-web-server)
+Tech Stack: `C` `Make` `Pthread` `GLib` `FUSE`
+- Addressed high-concurrency access demands through Linux Pthread thread pool technology, achieving 1000%+ performance improvement
+- Reduced repeated request processing overhead by implementing HTTP request caching mechanism using glib data structures (binary search tree and hash table)
+- Enhanced file access efficiency by integrating fuse and other core libraries to build lightweight in-memory file system, achieving 100% speed improvement
+- Key Learnings: Gained deep understanding of HTTP protocol and web server architecture design principles, mastered Linux system programming and multi-threaded concurrency control, familiar with file system low-level interfaces and memory mapping mechanisms
+- Project Outcome: Achieved performance metrics unattainable by traditional single-threaded servers through system-level optimization, received highest evaluation for code quality and technical innovation in university operating systems course
+- GitHub: [https://github.com/ZureTz/os-web-server](https://github.com/ZureTz/os-web-server)
 
-### source-gamer - Game Resource Management System
-**May 2024 - June 2024**
+### shorter-url - URL Shortening Service
+**March 2025 - April 2025** Core Feature Design and Implementation
 
-Created a platform for game resource integration and querying based on crawled data with systematic management and filtering capabilities.
+Designed and implemented a URL shortening service to solve the inconvenience of sharing long URLs and link management difficulties. The system provides core features including short link generation, custom aliases, and expiration management, improving sharing efficiency through a centralized link management platform.
 
-- Designed and developed the frontend architecture using HTML5, CSS3, and JavaScript, creating a responsive user interface
-- Integrated materialize.css framework for modern UI components with Webpack for modular management and build optimization
-- Using comprehensive user authentication and data query systems, including login verification and multi-condition filtering
-- Collaborated closely with a backend developer to optimize API calls, enhancing application performance and user experience
-- GitHub: [source-gamer](https://github.com/ZureTz/source-gamer-frontend.git)
+Tech Stack: `Go` `Echo` `JWT` `PostgreSQL` `Redis`
+
+- Adopted frontend-backend separation architecture to meet modern web application UX requirements, built high-performance RESTful API with Go/Echo and responsive interface with Next.js/React
+- Addressed performance bottlenecks in high-volume link access by storing core data in PostgreSQL and caching popular links in Redis, significantly improving user access experience
+- Ensured user data security through JWT authentication mechanism and Bcrypt password encryption, with email verification code recovery functionality
+- Implemented custom alias, expiration settings, and personal management panel features to meet user personalization needs
+- Reduced operational costs through scheduled tasks for automatic expired data cleanup, database migration tools for schema management, and Docker containerization for simplified deployment
+- Repository: [https://github.com/ZureTz/shorter-url](https://github.com/ZureTz/shorter-url)
+- Live Demo: [https://s.trozure.uk](https://s.trozure.uk)
 
 ## <i class="fas fa-code"></i> Open Source Contributions
 
-- **Vulkan-Sample Project**: Successfully merged documentation improvements, optimizing technical explanations and example code
-- **MaibotQQ Robot Gradio WebGUI**: Contributed implementation code for dynamic configuration file modification, which was adopted and merged into the main branch
+- **[KhronosGroup/Vulkan-Samples](https://github.com/KhronosGroup/Vulkan-Samples)**: Discovered and fixed technical errors in API documentation, submitted comprehensive documentation improvements, recognized and merged by project maintainers
+- **[MaiM-with-u/MaiBot](https://github.com/MaiM-with-u/MaiBot)**: Fixed WebUI dynamic configuration functionality module, resolved configuration challenges, received positive feedback from project maintainers
 
 ## <i class="fas fa-laptop-code"></i> Technical Skills
 
-- **Languages**: C/C++, Python, JavaScript
-- **Tools & Technologies**: Git, VS Code, Vite, Node.js, React, Webpack
-- **Development**: Algorithm design, Web development, System programming
-- **Soft Skills**: Problem-solving, Team collaboration, Self-learning
+- **Programming Languages**: C/C++, Go, TypeScript, Python
+- **Technical Frameworks**: Linux system programming, Gin/Echo, SQLc, PostgreSQL, Redis, RESTful API debugging (Postman), Web backend development (Go), Web frontend development (React, TypeScript)
+- **Development Tools**: Linux, Git, VS Code, Docker
+- **Soft Skills**: Excellent teamwork and communication abilities; Strong English proficiency (IELTS 7.5) with independent English technical documentation reading capability
 
 ## <i class="fas fa-phone-alt"></i> Contact Me
 

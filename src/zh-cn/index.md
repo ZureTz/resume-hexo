@@ -37,75 +37,74 @@ download:
 
 ## <i class="fas fa-clipboard-check"></i> 个人优势
 
-- **技术能力**：熟悉C/C++, Python, JavaScript等主流编程语言，具备扎实的数据结构与算法功底，能够解决复杂技术问题
-- **系统开发**：熟练掌握Linux环境下的开发，精通Git等版本控制工具，具备系统级应用开发和调优能力
-- **学习效率**：自学能力强，能够快速适应新技术栈和开发环境，具备持续学习的意愿和能力
-- **语言能力**：英语水平优秀（IELTS 7.5），能够流畅阅读英文技术文档，参与国际化项目交流
-- **团队协作**：沟通表达清晰，团队合作意识强，有良好的项目协调能力和责任心
+- **技术能力**: 掌握C/C++, Python, JavaScript等主流编程语言, 了解Go/Java等语言, 知道RESTful API的基本工作流程, 以及后端编程语言实现所需要的技术栈, 熟悉基本的数据结构和算法/操作系统/网络原理的知识, 熟悉Socket编程, 参照RFC 959设计和实现了FTP的客户端和服务器端
+- **运维能力**: 熟悉Linux系统, 能够熟练使用Linux命令行, 了解Docker容器化技术, 了解 CI/CD 流程
+- **学习效率**: 自学能力强, 能够快速适应新技术栈和开发环境, 具备持续学习的意愿和能力, 能够流畅阅读英文技术文档, 具备独自学习和解决问题的能力
+- **团队协作**: 沟通表达清晰, 团队合作意识强, 有良好的项目协调能力和责任心, 熟悉Git和GitHub, 有过开源经验, 知道如何提出Issue, 提出过Pull Request并且获得维护者认可
 
 ## <i class="fas fa-user-graduate"></i> 教育背景
 
 **中国石油大学(北京)(211)** 
 - **本科 人工智能学院 计算机科学与技术专业**
-- **预计毕业时间：2026年6月**
-- **学习成绩：GPA 4.0/5.0（专业前5%）**
-- **英语能力：IELTS 7.5(6.5)（2024年9月）**
-
-## <i class="fas fa-user-tie"></i> 实习与科研经历
-
-#### 教学助理(TA) @ 中国石油大学(北京)
-**2025年3月 ~ 2025年6月**
-
-- 部分负责学院Online Judge系统(acm.cup.edu.cn)的维护与优化
-- 协助教授组织和迁移300+编程题库，设计评分标准和自动化测试用例，提高评测准确性
-- 一对一辅导20+名本科生，解决技术难题，进行代码审核，提升了学生编程能力
-- 主持编程实践课程，培训50+名学生掌握标准开发流程和工具链，提升教学反馈满意度
-
-#### 研究助理(RA) @ 中国石油大学(北京)
-**2025年3月 ~ 至今**
-
-- 核心参与基于Vulkan图形API的高性能矩阵计算项目
-- 负责RT Core的Headless Computing方案设计
-- 主导项目初期技术选型和架构设计
+- **预计毕业时间: 2026年6月**
+- **学习成绩: GPA 4.0/5.0（专业前5%）**
+- **英语能力: IELTS 7.5(6.5)**
 
 ## <i class="fas fa-award"></i> 项目经历
 
-### accumulate-webserver - 高性能Web服务器
-**2024年5月 ~ 2024年6月**
+### os-webserver - 高性能Web服务器
+**2024年5月 ~ 2024年6月** 架构设计和实现
 
-自主设计并实现的高性能HTTP服务器，从零开始构建完整Web服务器架构
+自主设计并实现的高性能HTTP服务器, 从零开始构建的高性能Web服务器架构 
 
-- 自主设计并实现基于内存池的高效内存分配器，相比标准malloc提升内存利用率
-- 深度整合glib, pthread和fuse等核心库，构建轻量级内存文件系统，文件访问速度提升100%
-- 设计并实现高效线程池架构，在并发连接1000+场景下，吞吐量较单线程版本提升1000%
-- 项目地址：[accumulate-webserver](https://github.com/ZureTz/os-web-server)
+技术栈: `C` `Make` `Pthread` `GLib` `FUSE`
+- 针对高并发访问需求，通过Linux Pthread线程池技术实现性能提升1000%以上
+- 为减少重复请求处理开销，采用glib数据结构(二叉排序树和哈希表)构建HTTP请求缓存机制
+- 为提升文件访问效率，集成fuse等核心库构建轻量级内存文件系统，访问速度提升100%
+- 个人收获: 深入理解HTTP协议和Web服务器架构设计原理，掌握Linux系统编程和多线程并发控制技术，熟悉文件系统底层接口和内存映射机制
+- 项目成果: 通过系统级优化实现了传统单线程服务器无法达到的性能指标，项目代码质量和技术创新获得校内操作系统课程最高评价
+- 项目地址: [https://github.com/ZureTz/os-web-server](https://github.com/ZureTz/os-web-server)
 
-### source-gamer - 游戏资源管理系统
-**2024年5月 ~ 2024年6月**
+### shorter-url - 短链接生成服务
+**2025年3月 ~ 2025年4月** 核心功能设计和实现
 
-面向抖音评论的资源管理平台，实现评论区素材的智能管理和高效检索
+为解决长URL分享不便和链接管理困难的问题，设计并实现了该短链接生成服务。系统提供短链接生成、自定义别名、有效期管理等核心功能，通过集中化的链接管理平台提升链接分享的效率。
 
-- 独立完成前端架构设计与实现，采用现代前端技术栈构建响应式UI，支持多终端适配
-- 优化materialize.css框架与业务逻辑集成，实现自定义UI组件库，通过Webpack进行合理打包
-- 设计并实现高安全性用户认证系统和灵活的多维度数据检索功能，支持检索条件组合
-- 主导前后端API联调，优化数据传输效率，用户体验显著提升
-- 项目地址：[source-gamer](https://github.com/ZureTz/source-gamer-frontend.git)
+技术栈: `Go` `Echo` `JWT` `PostgreSQL` `Redis`
+
+- 为满足现代Web应用的用户体验需求，采用前后端分离架构，通过Go/Echo构建高性能RESTful API，Next.js/React构建响应式界面
+- 为解决大量链接访问的性能瓶颈，通过PostgreSQL存储核心数据，Redis缓存热门链接，显著提升用户访问体验
+- 为保障用户数据安全，集成JWT用户认证机制和Bcrypt密码加密，并提供邮箱验证码找回功能
+- 为满足用户个性化需求，实现短链接自定义别名、有效期设置、个人管理面板等实用功能
+- 为降低运维成本，通过定时任务自动清理过期数据，数据库迁移工具管理结构变更，Docker容器化简化部署
+- 项目仓库: [https://github.com/ZureTz/shorter-url](https://github.com/ZureTz/shorter-url)
+- 即刻使用: [https://s.trozure.uk](https://s.trozure.uk)
 
 ## <i class="fas fa-code"></i> 开源贡献
 
-- **Vulkan-Sample 项目**：发现并修复API文档中的技术错误，提交完整文档改进方案，获项目维护者认可并合并
-- **MaibotQQ 机器人框架**：独立开发Gradio WebGUI动态配置功能模块，解决配置难点问题，获得同项目维护者好评
+- **[KhronosGroup/Vulkan-Samples](https://github.com/KhronosGroup/Vulkan-Samples)**: 发现并修复API文档中的技术错误, 提交完整文档改进方案, 获项目维护者认可并合并
+- **[MaiM-with-u/MaiBot](https://github.com/MaiM-with-u/MaiBot)**: 修复了WebUI动态配置功能模块, 解决配置难点问题, 获得同项目维护者好评
 
-## <i class="fas fa-laptop-code"></i> 专业技能
+## <i class="fas fa-laptop-code"></i> 技能证书/其他
 
-- **编程语言**：C/C++(熟练), Python(了解), JavaScript(掌握)
-- **技术框架**：Linux系统编程, 前端开发
-- **开发工具**：Git, VS Code, Vite, Node.js, React, Webpack
-- **软技能**：问题分析与解决, 技术文档撰写, 团队协作, 项目管理
+- **编程语言**: C/C++, Go, TypeScript, Python
+- **技术框架**: Linux系统编程, Gin/Echo, SQLc, PostgreSQL, Redis, RESTful API调试(Postman), Web后端开发(Go), Web前端开发(React, TypeScript)
+- **开发工具**: Linux, Git, VS Code, Docker
+- **软技能**: 具备良好的团队协作和沟通能力; 英语能力强(IELTS 7.5), 有独立阅读英文技术文档的能力
+
+## <i class="fas fa-user-tie"></i> 在校经历
+
+#### 教学助理(TA) 
+**2025年3月 ~ 2025年6月**
+
+- 部分负责学院Online Judge系统(acm.cup.edu.cn)的维护与优化
+- 协助教授组织和迁移100+编程题库, 设计评分标准和自动化测试用例, 提高评测准确性
+- 一对一辅导20+名本科生, 解决技术难题, 进行代码审核, 提升了学生编程能力
+- 主持编程实践课程, 培训50+名学生掌握标准开发流程和工具链, 提升教学反馈满意度
 
 ## <i class="fas fa-phone-alt"></i> 与我联系
 
-当前状态：在校学生，可实习时间三个月以上，一周内可到岗
+当前状态: 在校学生, 可实习时间三个月以上, 一周内可到岗
 
 <i class="fas fa-envelope fa-fw"></i> [pineehuang@icloud.com](mailto:pineehuang@icloud.com)
 <i class="fas fa-phone-alt fa-fw"></i> [+86 18163384338](tel:+86-18163384338)
@@ -119,5 +118,11 @@ download:
         theme="github-light"
         crossorigin="anonymous"
         async>
+</script>
+{% endraw %}
+</script>
+{% endraw %}
+</script>
+{% endraw %}
 </script>
 {% endraw %}
