@@ -120,9 +120,3 @@ download:
         async>
 </script>
 {% endraw %}
-</script>
-{% endraw %}
-</script>
-{% endraw %}
-</script>
-{% endraw %}
